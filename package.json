@@ -1,0 +1,14 @@
+{
+  "name": "keyring-test-1395",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jaco <jacogr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@polkadot/keyring": "^8.3.3"
+  },
+  "scripts": {
+    "start:cjs": "node ./index.cjs",
+    "start:mjs": "node ./index.mjs"
+  }
+}
